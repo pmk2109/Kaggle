@@ -772,12 +772,9 @@ if for_real:
 #let's try with additional models (logistic regression, random forest, NN), try with maybe randomized params,
 #try maybe with bayes_optimized params
 # Plotting the weights of each ensemble
-# In the case of EN_optA, there is a weight for each prediction and in the case of EN_optB there is a weight for each class for each prediction.
+# In the case of EN_optA, there is a weigt for each prediction and in the case of EN_optB there is a weight for each class for each prediction.
 # In [ ]:
 
-end = time.time()
-print("TotalExecution Time:")
-print(end - start)
 
 from tabulate import tabulate
 print('         Weights of EN_optA:')
